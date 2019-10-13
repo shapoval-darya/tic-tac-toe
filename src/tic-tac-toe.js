@@ -2,7 +2,8 @@ class TicTacToe {
     constructor() {
         this._matrix = [
             [null, null, null],
-            [null, null, null], n[null, null, null]
+            [null, null, null],
+            [null, null, null]
         ];
         this.SYMBOLS = ['x', 'o'];
 
@@ -115,7 +116,6 @@ class TicTacToe {
     getFieldValue(rowIndex, colIndex) {
         return this._matrix[rowIndex][colIndex];
     }
-
 }
 
 module.exports = TicTacToe;
